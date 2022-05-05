@@ -5,19 +5,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>First Website</title>
 </head>
 
-<body>
+<body stype="height: 2500px">
     <h1>Hello World!</h1>
-    <p>My name is <em>The Anh</em></p> <br/>
+    <p>H1 tags are an important part of SEO.
+        All of the important pages on your site
+        should have H1 tags to draw in the reader
+        and give a clear indication of the content on the page.
+        When you have great H1 tags, especially when you match
+        them to your title tags, it can make a big difference to SEO performance.</p>
+    <p>My name is <em>The Anh</em></p> <br />
     <!-- <em></em> - emphasize, chuyển contents trong nó thành chữ nghiêng -->
     <p>I have a <strong>website</strong></p>
+    <a href="https://www.google.com">Google mở sang trang mới ngay tại trang này</a> <br>
+    <a href="https://www.google.com" target="_brank" rel="noopener noreferrer">Google mở sang một cửa sổ trình duyệt
+        mới</a>
+    <hr>
 
+    <h2>inline / block tags and semantics</h2>
+    <p><strong>inline tags: </strong> a, span, b, em, i, dd, strong, area, button, data, label, textarea... </p>
+    <p> <strong>block tags: </strong>div, p, article, aside, body, form, h1,2,3,4,5,6, header, iframe, nav, ol, ul,...
+    </p>
+    <p><strong>Semantic Elements: </strong> header, nav, main, footer, section, article, aside, details, figure,
+        figcaption, summary, time, mark </p>
+    <hr>
+
+    <h2>italic and bold</h2>
+    <em>italic</em>
+    <i>italic, too</i>
+    <hr>
+    <strong>bold</strong>
+    <b>bold, too</b>
+    <hr>
+
+    <h2>Bem</h2>
+    <p>Bem: Bock__Element--Modifier</p>
+    <p>Bem: Bock-Bock__Element--Modifier</p>
+    <p>Bem: Bock--Modifier</p>
+    <hr>
+
+    <h2>Emmet VSCode</h2>
+    <p><strong>Emmet in VSCode:</strong>
+        <span>.className</span><br>
+        <span>#idName</span><br>
+        <span>.className1.className2.className3</span><br>
+        <span><b>To copy:</b> shift + alt + up arow / down arow </span><br>
+
+
+    </p>
+    <hr>
+
+    <h2>Hope you enjoy this video</h2>
+    <iframe width="699" height="393" src="https://www.youtube.com/embed/OX4XGMifSv8" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+    </iframe>
+
+    <div class="dropdown">
+
+        <div class="dropdown__select">
+            <span class="dropdown__selected"></span>
+            <i class="fa fa-caret-down dropdown__caret"></i>
+        </div>
+
+        <div class="dropdown__list">
+            <div class="dropdown__item">
+                <span class="dropdown__title"></span>
+                <i class="fa fa-plus dropdown__icon"></i>
+            </div>
+        </div>
+
+    </div>
 </body>
 
 </html>
 <!-- 
     boiler plate/ ckeleton code
     là term chỉ những luôn được sử dụng để tạo lên 1 website.
+ -->
+<!--
+    Bem for block with name "boy":
+        boy__body
+        boy__eyes
+        boy__nose
+        boy__head 
+        boy__eyes--back
+        boy__hair--yellow
+        boy__hands-fingers--fat
+        boy__legs--thin
+
+    Bem for block with name "dropdown": 
+        dropdown
+        dropdown__heading--red
+        dropdown__body--red
+        dropdown__heading__text-color--while
+        dropdown__heading__text-position--left
+        dropdown__body__text-color--while
+        dropdown__body__text-position--left
+        dropdown__heading__icon-color--while
+        dropdown__heading__icon-position--right
+        dropdown__body__icon-color--while
+        dropdown__body__icon-position--right
  -->
