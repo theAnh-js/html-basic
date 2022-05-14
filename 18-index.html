@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css" />
+  </head>
+
+  <body>
+    <div class="em">em</div>
+    <div class="rem">rem</div>
+  </body>
+
+  <style>
+    /* default: 
+        font-size: 100% = 16px
+        1em = 1rem = 16px
+     */
+
+    /* Để cho dễ tính toán , ta quy đổi 
+        font-size: 62.5%
+        => lúc này: 1rem = 10px; thường thì ngta dùng rem.
+        Vì dù có quy đổi font-size của html thì em cũng ko thay đổi,
+        nó phụ thuộc vào thẻ chứa nó gần nhất.
+    */
+
+    /* quy đổi */
+    html {
+      font-size: 62.5%;
+      /*  1rem = 10px */
+    }
+
+    .em {
+      background-color: coral;
+      height: 10em;
+      width: 10em;
+      font-size: 32px;
+      /* lúc này 1 em = 32px
+        em là đơn vị phụ thuộc vào thuộc tính font-size của chính nó
+        hoặc của phần tử chứa nó.
+        */
+    }
+
+    .rem {
+      background-color: rgb(80, 255, 127);
+      width: 10rem;
+      height: 16rem;
+      font-size: 32px;
+      /* 
+        Default:1rem vẫn = 16px
+        Sau khi quy đổi font-size của html=> 1rem = 10px
+        
+        rem là đơn vị sẽ phụ thuộc vào thuộc tính font-size của thẻ html
+       */
+
+      border: 5px solid #333;
+
+      border-left-style: solid;
+      border-top-style: dotted;
+      border-bottom-style: dashed;
+
+      border-right-color: brown;
+      border-bottom-color: cornflowerblue;
+
+      border-radius: 10px;
+      border-top-right-radius: 50px;
+
+      margin-left: 10px;
+    }
+  </style>
+</html>

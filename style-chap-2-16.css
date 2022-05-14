@@ -1,0 +1,31 @@
+p{
+    color : red; 
+    color: #ccc;/*hexa*/
+    color: rgb(0, 0, 0); /* red greend blue */
+    color: rgba(0, 0, 0, 0.5); /*red green blue alpha(opacity)*/
+}
+.background{
+    background-color: chocolate; /*emmet: bgc*/
+    /*when use background-color property, need make width and height*/
+    width: 100px;   /*emmet: w50*/
+    height: 100px; /*emmet: h50*/
+
+    margin-bottom: 10px;
+
+    overflow: hidden; /*che bỏ những chữ bị tràn ra ngoài*/
+    overflow-y: auto; /*không muốn che mà muốn kéo dọc để nhìn được*/
+    overflow-x: auto; /*không muốn che mà muốn kéo dọc để nhìn được*/
+}
+.background-2{
+    background-color: rgb(96, 30, 210); /*emmet: bgc*/
+    color: #fff;
+
+    /*when use background-color property, need make width and height*/
+    width: 100px;   /*emmet: w50*/
+    min-height: 100px;   /*nếu muốn content bên trong dài ra bao nhiêu thì 
+    height cao lên bấy nhiêu thì dùng "min-height"*/
+
+    /*tương tự, cũng có "max-height", "min-width", "max-width"*/
+
+
+}

@@ -1,0 +1,15 @@
+/*background*/
+
+.background-3 {
+  /* background-image: url("https://images.unsplash.com/photo-1633102841837-131bf9f4cb3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE0fENEd3V3WEpBYkV3fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"); */
+  width: 50%;
+  height: 500px;
+  /* background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+
+  /*shorthand*/
+  background: red
+    url("https://images.unsplash.com/photo-1633102841837-131bf9f4cb3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDE0fENEd3V3WEpBYkV3fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60")
+    no-repeat center center / cover;
+}
